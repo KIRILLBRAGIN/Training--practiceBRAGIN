@@ -87,7 +87,8 @@ namespace Esoft_Project
                         demand.AgentSet.LastName + " " + demand.AgentSet.FirstName.Remove(1) + "." + " " + demand.AgentSet.MiddleName.Remove(1) + ".",
                         demand.MinPrice.ToString(), demand.MaxPrice.ToString(), demand.MinArea.ToString(),
                         demand.MaxArea.ToString()
-                    });
+                    }
+                    );
                     item.Tag = demand;
                     listViewDemand_Land.Items.Add(item);
                 }
